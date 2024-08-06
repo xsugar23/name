@@ -1,1 +1,12 @@
 
+numero = float  ( input(f"digite para verificar se um número é positivo, negativo ou zero\n"))
+
+if numero > 0 :
+    print(f"o numero e positivo")
+    
+
+elif numero <0 :
+    print(f"o numero e negativo")
+    
+if numero == 0 :
+   print(f"o numero e zero")    
